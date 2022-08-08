@@ -25,6 +25,11 @@ body {
 .bg-custom{
 	background-color: #6EB4D1;
 }
+/*NavBarText custom color*/
+.nav-text-custom-color{
+	color: white !important;
+	text-decoration-color: white !important;
+}
 /* general color of landing */
 .jumbotron {
 	background-color: transparent;
@@ -37,7 +42,7 @@ body {
 	margin: 5px;
 	width: 100%;
 	color:  black;
-	background-color: #6EB4D1;
+	background-color: #47A0C5;
 }
 #landing {
 	height: auto;
