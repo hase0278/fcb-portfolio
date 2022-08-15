@@ -16,6 +16,9 @@
 
 	<!-- Personal CSS -->
 	<link rel="stylesheet" type="text/css" href="index.css">
+
+	<!-- Bootstrap Icons -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
 </head>
 <body>
 	<!-- Ctrl + / to create comments -->
@@ -28,13 +31,16 @@
 	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
 	    <ul class="navbar-nav mx-auto">
 	      <li class="nav-item">
-	        <a class="nav-link nav-text-custom-color" href="#landing">Home</a>
+	        <a class="nav-link nav-text-custom-color" href="#landing"> <i class="bi bi-house-door-fill"></i> Home</a>
 	      </li>
 	      <li class="nav-item">
-	        <a class="nav-link nav-text-custom-color" href="#gallery">Gallery</a>
+	        <a class="nav-link nav-text-custom-color" href="#projects"> <i class="bi bi-file-code"></i> Projects</a>
 	      </li>
 	      <li class="nav-item">
-	        <a class="nav-link nav-text-custom-color" href="resume/gabriel-resume.pdf">Resume</a>
+	        <a class="nav-link nav-text-custom-color" href="#contact"> <i class="bi bi-person-lines-fill"></i> Contact</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link nav-text-custom-color" href="resume/gabriel-resume.pdf"> <i class="bi bi-file-person-fill"></i> Resume/CV</a>
 	      </li>
 	    </ul>
 	  </div>
@@ -46,32 +52,23 @@
 			<p>Hi! My name is Gabriel, a junior full stack developer aiming to be a jack of all trades.</p>
 			<img src="images/me.jpg"/>
 		</section>
-		<section class="text-center" id="gallery">
-			<div class="tools">
-				<h2>Programming Languages I Use:</h2>
+		<section class="text-center">
+			<div class="tools" id="projects">
+				<h2><i class="bi bi-file-code"></i> Projects Finished:</h2>
 				<!-- unordered list = ul ordered list = ol-->
 				<ul>
 					<!-- list item -->
-					<li>Java</li>
-					<li>SQL</li>
-					<li>C#</li>
-					<li>Python</li>
-					<li>Coldfusion</li>
-					<li>HTML</li>
-					<li>CSS</li>
+					<li><a class="nav-text-custom-color" href="https://drive.google.com/drive/folders/185fbs-7lGjd5AjIwM5GBUlKgdfN0yyYq?usp=sharing"> <i class="bi bi-android2"></i> Palengkero</a></li>
+					<li><a class="nav-text-custom-color" href="https://github.com/hase0278/Porta"> <i class="bi bi-windows"></i> Porta</a></li>
+					<li><a class="nav-text-custom-color" href="https://github.com/hase0278/OsuMp3"> <i class="bi bi-windows"></i> OsuMp3</a></li>
 				</ul>
 			</div>
-			<div class="tools">
-				<h2>Tools I Use:</h2>
+			<div class="tools" id="contact">
+				<h2><i class="bi bi-person-lines-fill"></i> Contact Me:</h2>
 				<ul>
-					<li>Android Studio</li>
-					<li>Visual Studio</li>
-					<li>Xamarin</li>
-					<li>Netbeans</li>
-					<li>Git Bash/Terminal</li>
-					<li>Sublime Text</li>
-					<li>Notepad++</li>
-					<li>Github</li>
+					<li> <span><i class="bi bi-envelope"></i>  decastro.gabriel00@gmail.com</span> </li>
+					<li><a class="nav-text-custom-color" href="https://www.facebook.com/hase0278/"> <i class="bi bi-facebook"></i> Gabriel Amido De Castro</a></li>
+					<li> <span><i class="bi bi-phone"></i> 09760609842</span> </li>
 				</ul>
 			</div>
 		</section>
