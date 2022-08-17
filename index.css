@@ -21,6 +21,7 @@ img {
 body {
 	background-color: #6CBEED;
 }
+/*sets iframe width and height to autoadjust to screen*/
 iframe {
 	height: auto;
 	width: 100vh;
