@@ -59,6 +59,10 @@ body {
 	justify-content: center;
 	height: 90vh;
 }
+#roles{
+	margin-top: 20px;
+	margin-bottom: 0px;
+}
 /* Removes the bullets of the uls/lists */
 ul {
 	list-style-type: none;
