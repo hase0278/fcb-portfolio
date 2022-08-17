@@ -21,6 +21,10 @@ img {
 body {
 	background-color: #6CBEED;
 }
+iframe {
+	height: auto;
+	width: 100vh;
+}
 /* NavBar custom color */
 .bg-custom{
 	background-color: #6EB4D1;
