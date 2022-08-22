@@ -12,6 +12,9 @@ h1 {
 h2 {
 	color: #fefefe;
 }
+p {
+	text-align: justify;
+}
 /* # for selecting id, . for selecting class */
 img {
 	height: 250px;
