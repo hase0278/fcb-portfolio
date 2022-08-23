@@ -47,6 +47,10 @@ body {
 	color:  black;
 	background-color: #47A0C5;
 }
+.demo {
+	height: 480px;
+	width: 100%;
+}
 #landing {
 	height: auto;
 	display: flex;
