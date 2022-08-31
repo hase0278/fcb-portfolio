@@ -15,6 +15,9 @@ h2 {
 p {
 	text-align: justify;
 }
+span, li, p{
+	font-size: 18px;
+}
 /* # for selecting id, . for selecting class */
 img {
 	height: 300px;
@@ -22,7 +25,7 @@ img {
 }
 /* Website General Background */
 body {
-	background-color: #6CBEED;
+	background-color: #47A0C5;
 }
 /* NavBar custom color */
 .bg-custom{
@@ -45,11 +48,35 @@ body {
 	margin: 5px;
 	width: 100%;
 	color:  black;
-	background-color: #47A0C5;
+	background-color: #5190C5;
 }
 .demo {
 	height: 480px;
 	width: 100%;
+}
+.cert {
+	height: auto;
+	width: 100%;
+}
+.outer {
+  display: table;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.middle {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.inner {
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  /* Whatever width you want */
 }
 #landing {
 	height: auto;
